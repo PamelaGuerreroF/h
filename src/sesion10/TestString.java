@@ -13,6 +13,7 @@ public class TestString {
         int totalPersonas = 10;
         for (int contador = 1; contador <= totalPersonas; contador++) {
             Persona persTmp = new Persona();
+            
 //            String nombre = new String("Juan");
             persTmp.nombre = new String("Juan");
             persTmp.apPaterno = "paterno " + contador;
