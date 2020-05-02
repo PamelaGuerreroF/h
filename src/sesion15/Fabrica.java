@@ -9,7 +9,7 @@ public class Fabrica {
 
     static int numSerie;
 
-    public static int asignarNumSerie() {
+    public  int asignarNumSerie() {
         ++numSerie;
         return numSerie;
     }
