@@ -12,17 +12,17 @@ public class TestString {
     public void testPersonas() {
         int totalPersonas = 10;
         for (int contador = 1; contador <= totalPersonas; contador++) {
-            Persona persTmp = new Persona();
+            Persona persTmp = new Persona("","","","");
             
 //            String nombre = new String("Juan");
-            persTmp.nombre = new String("Juan");
-            persTmp.apPaterno = "paterno " + contador;
-            persTmp.apMaterno = "materno ".concat("" + contador).toUpperCase();
-            persTmp.nacionalidad = nacionalidad;
-            System.out.println(persTmp.nombre);
-            System.out.println(persTmp.apPaterno);
-            System.out.println(persTmp.apMaterno);
-            System.out.println(persTmp.nacionalidad);
+            persTmp.setNombre(new String("Juan"));
+//            persTmp.apPaterno = "paterno " + contador;
+//            persTmp.apMaterno = "materno ".concat("" + contador).toUpperCase();
+//            persTmp.nacionalidad = nacionalidad;
+//            System.out.println(persTmp.nombre);
+//            System.out.println(persTmp.apPaterno);
+//            System.out.println(persTmp.apMaterno);
+//            System.out.println(persTmp.nacionalidad);
         }
     }
 }
