@@ -38,7 +38,7 @@ public class Programador extends Persona {
         System.out.println("idiomas: " + this.getIdiomas());
         System.out.println("senior: " + this.isSenior());
         identificate();
-comer();
+        comer();
     }
     
     public static void identificate() {
