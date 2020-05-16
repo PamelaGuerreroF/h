@@ -1,16 +1,21 @@
-package sesion21;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package sesion22;
 
-public class ProfesorConcreto extends ProfesorAbstracto {
-
-    @Override
-    public String estudiar() {
-        System.out.println("El profesor tambien tiene que estudiar");
-        return "El profesor tambien tiene que estudiar";
+public class ClaseConcreta implements Herencia {
+    
+    public static void main(String[] args) {
+        ClaseConcreta concreto = new ClaseConcreta();
+        concreto.metodoDefault();
     }
 
     @Override
-    public String getNombre() {
-        return "Profesor de programacion";
+    public void metodoDefault() {
+        System.out.println("Metodo clase concreta");
+//        Herencia.super.metodoDefault(); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
